@@ -1,0 +1,82 @@
+body {
+	/*background-color: rgb(34,34,34);*/
+	/*background-color: rgb(245,245,245);*/
+	/*background-color: #60A8DF;*/
+	font-family: "Fakt Soft","Proxima Nova","Helvetica","Lucida Grande",sans-serif;
+	/*font-size: 18px;
+	line-height: 23.4px;*/
+	font-size: 14px;
+	line-height: 22.4px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: #787878;
+	/*background-color: #60A8DF;*/
+}
+
+a {	-webkit-transition: color .15s ease-in-out;
+        transition: color .15s ease-in-out;
+	text-decoration: none;
+}
+
+#main_navigator {
+	padding-top: 16px;
+	padding-right: 32px;
+	padding-bottom: 16px;
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	/*background-color: rgba(22, 22, 22, 0.8);*/
+}
+
+#main_navigator > div {
+	padding-left: 18px;
+}
+
+#main_navigator > div:first-child {
+	padding-left: 0;
+	margin-left: auto;
+}
+
+#main_navigator a {
+	color: rgb(153, 153, 153);
+}
+
+#main_navigator a:hover {
+	color: #ff6c98;
+	text-decoration: none;
+	background-color: none;
+}
+
+#game_address {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#game_address a {
+	font-family: courier;
+	font-size: 18px;
+	color: rgb(153, 153, 153);
+}
+
+#game_address a:hover {
+	color: #ff6c98;
+	text-decoration: none;
+	background-color: none;
+}
+
+#participants {
+}
+
+#participants td:first-child a {
+	font-family: courier;
+	color: rgb(0, 136, 204);
+}
+
+#participants td:first-child a:hover {
+	font-family: courier;
+	text-decoration: underline;
+}
+
