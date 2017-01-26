@@ -50,24 +50,41 @@ a {	-webkit-transition: color .15s ease-in-out;
 	background-color: none;
 }
 
-#game_address {
-	margin-top: 50px;
-	margin-bottom: 50px;
+#lottery_address {
+	padding-top: 50px;
 }
 
-#game_address a {
+#lottery_address a {
 	font-family: courier;
 	font-size: 18px;
 	color: rgb(153, 153, 153);
 }
 
-#game_address a:hover {
+#lottery_address a:hover {
 	color: #ff6c98;
 	text-decoration: none;
 	background-color: none;
 }
 
+#jackpot_information {
+	padding-top: 50px;
+}
+
+#jackpot_information p:first-child {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgb(0, 167, 0);
+	padding: 0px;
+	margin: 0px;
+}
+
+#jackpot_information span {
+	color: rgb(0, 167, 0);
+	font-weight: bold;
+}
+
 #participants {
+	padding-top: 50px;
 }
 
 #participants table {
