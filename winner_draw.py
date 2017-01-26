@@ -17,6 +17,7 @@ def read_input():
         transaction[1] = float(transaction[1])
         transactions.append(transaction)
 
+    transactions = sorted(transactions, key=lambda t: t[0])
     total = sum([t[1] for t in transactions])
     for i in range(len(transactions)):
         percentage = transactions[i][1] / total
