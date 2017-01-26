@@ -70,9 +70,46 @@ a {	-webkit-transition: color .15s ease-in-out;
 #participants {
 }
 
+#participants table {
+	border-collapse: collapse;
+	font-size: 14px;
+	/*width: 100%;*/
+}
+
+#participants tr {
+	border-top: 1px solid #E7E7E7;
+	border-top-style: double;
+}
+
+#participants tr:first-child {
+	border-top: 0px !important;
+}
+
+#participants th {
+	color: black;
+	font-weight: normal;
+	text-align: left;
+}
+
+#participants td {
+	vertical-align: middle
+}
+
 #participants td:first-child a {
 	font-family: courier;
 	color: rgb(0, 136, 204);
+}
+
+#participants th, #participants td {
+	border-left: 1px solid #E7E7E7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#participants td:first-child, #participants th:first-child {
+	border-left: 0px;
 }
 
 #participants td:first-child a:hover {
