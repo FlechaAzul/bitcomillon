@@ -41,6 +41,16 @@ a:hover {
 	padding-bottom: 16px;
 }
 
+#header {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	height: 256px;
+	background-image: url(clouds.jpg);
+	z-index: -999;
+}
+
 #main_navigator {
 	padding-top: 16px;
 	padding-right: 32px;
@@ -48,12 +58,7 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 	font-size: 16px;
-	/*background-color: rgba(22, 22, 22, 0.8);*/
-}
-
-#main_navigator a {
-	font-size: 16px;
-	font-family: "Fakt Soft","Proxima Nova","Helvetica","Lucida Grande",sans-serif !important;
+	/*background-color: rgba(0, 0, 0, 0.7);*/
 }
 
 #main_navigator div {
@@ -66,7 +71,9 @@ a:hover {
 }
 
 #main_navigator a {
-	color: rgb(153, 153, 153);
+	font-size: 16px;
+	font-family: "Fakt Soft","Proxima Nova","Helvetica","Lucida Grande",sans-serif !important;
+	color: white;
 	-webkit-transition: color .15s ease-in-out;
         transition: color .15s ease-in-out;
 	text-decoration: none;
@@ -74,20 +81,20 @@ a:hover {
 
 #main_navigator a:hover {
 	color: #ff6c98;
-	text-decoration: none;
+	text-decoration: underline;
 	background-color: none;
 }
 
 #main_content {
 	flex: 1;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 260px;
 	margin-left: 32px;
 	margin-right: 32px;
 }
 
 #lottery_address {
-	padding-top: 50px;
+	padding-top: 0px;
 }
 
 #lottery_address a {
